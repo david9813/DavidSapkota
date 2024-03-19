@@ -33,18 +33,25 @@ span {
   font-size: large;
 }
 
-.contact-form button {
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.send {
   background-color: #007bff;
   color: #fff;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.contact-form button:hover {
+.send:hover {
   background-color: #0056b3;
 }
+
 
 .contact_contact {
   background-color: #f8f8f8;
@@ -83,7 +90,7 @@ span {
 @media screen and (max-width: 768px) {
   .contact_man {
     flex-direction: column;
-    padding: 20px;
+    padding: 50px;
     height: auto;
 
   }
@@ -94,8 +101,11 @@ span {
     width: 85%;
     
   }
-  .contact_button{
-    width: 90%;
-    margin: auto;
+ 
+  .form-label {
+    font-size: 16px;
+  margin-left: 5%;
+    ;
+
   }
 }

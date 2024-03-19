@@ -14,7 +14,7 @@ function Portfolio() {
 
       <button className="but_qui">
         <a
-          href="https://github.com/david9813/Bible-Quiz.git"
+          href="https://biblequizdavid.netlify.app/"
           style={{ color: "white" }}
         >
           Quiz App
@@ -26,8 +26,26 @@ function Portfolio() {
           href="https://github.com/david9813/Calculator.git"
           style={{ color: "white" }}
         >
-          {" "}
           Calculator
+        </a>
+      </button>
+
+
+      <button className="but_cal">
+        <a
+          href="https://play.google.com/apps/test/com.davidsapkota.JourneyofFaith/1"
+          style={{ color: "white" }}
+        >
+          MobileApp
+        </a>
+      </button>
+     
+      <button className="but_cal">
+        <a
+          href="https://github.com/david9813"
+          style={{ color: "white" }}
+        >
+      Github
         </a>
       </button>
     </div>
